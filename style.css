@@ -1,0 +1,91 @@
+nav {
+  background-color: rgb(247, 241, 241);
+  height: 100px;
+  transition: 1s;
+}
+.tampil-nav {
+  background-color: rgb(243, 221, 18);
+  height: 65px;
+}
+nav .img {
+  height: auto;
+  width: 16%;
+  transition: 2s;
+}
+nav .img-child {
+  width: 12% !important;
+}
+.kuning:hover {
+  transition: 0.2s;
+  background-color: rgb(204, 185, 8);
+  opacity: 0.7;
+  border-radius: 5px;
+  box-shadow: 1px 0.1px 3px rgb(34, 33, 23);
+  color: rgb(27, 17, 17) !important;
+}
+.jumbotron {
+  background-image: url("img/weee.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: -100px;
+  color: white;
+  padding-top: 150px !important;
+  overflow: hidden;
+}
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+.jumbotron h2,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+#about .container {
+  padding-top: 30px;
+  overflow: hidden;
+}
+.bg-about {
+  background-image: url("img/bg-about.png");
+  background-size: cover;
+}
+.kanan {
+  opacity: 0;
+  transform: translate(100px, 0) rotate(25deg);
+  transition: 1s; 
+}
+.kanan.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#project {
+  background-color: rgb(247, 233, 128);
+}
+#project {
+  position: relative;
+}
+#project .card {
+  box-shadow: 1px 1px 3px black;
+  z-index: 1;
+}
+#project .card p {
+  text-shadow: 1px 1px 10px black;
+  color: white;
+  position: absolute;
+  top: 24%;
+}
+
+footer {
+  color: white;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+footer i {
+  font-size: 30px;
+}
+
+section {
+  padding-top: 40px;
+}
